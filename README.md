@@ -28,17 +28,25 @@
 
 ## 安装
 
-放到用户级 skill 目录：
-
 ```bash
-# Windows Git Bash
-cp -r storycard-parent-child ~/.workbuddy/skills/
-
-# macOS / Linux
+git clone https://github.com/hzui/storycard-parent-child.git
 cp -r storycard-parent-child ~/.workbuddy/skills/
 ```
 
+- **Windows（Git Bash）**：`~/.workbuddy/skills/` 通常解析到 `C:\Users\<用户名>\.workbuddy\skills\`
+- **macOS / Linux**：同上，`~` 即家目录
+
 装完在 WorkBuddy 里说「用故事卡 skill 做亲子配图」即可触发。
+
+**更新**（已安装过的）：
+
+```bash
+cd ~/.workbuddy/skills/storycard-parent-child
+git pull
+```
+
+⚠️ 若你本地改过 `assets/anchor-storycard.png`，`git pull` 会冲突。
+建议先备份再pull，或用 `git stash`。
 
 ## 用法
 
