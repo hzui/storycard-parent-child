@@ -1,0 +1,26 @@
+# 本地/系统垃圾文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+#编辑器
+.vscode/
+.idea/
+*.swp
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 本skill 不分发风格来源参考图（版权归属不明）
+# 若日后放入本地参考，请勿提交：
+# assets/reference-*.jpg
+# assets/reference-*.png
+
+# 生成产物
+outputs/
+generated-images/
+*.log
